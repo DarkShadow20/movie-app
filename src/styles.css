@@ -33,8 +33,9 @@ button {
   outline: none;
 }
 button:focus {
-  background-color: #ffffff;
+  background-color: #000000;
   color: #f5c518;
+  border: 1px solid #f5c518;
 }
 .left-img {
   float: left;
