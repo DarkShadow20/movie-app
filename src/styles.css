@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+.App {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #000000;
+}
+h1 {
+  color: #f5c518;
+  margin: 20px 0 0 20px;
+}
+
+p {
+  color: #f5c518;
+  text-align: center;
+}
+.genreButton {
+  text-align: center;
+}
+
+button {
+  background-color: #f5c518;
+  color: #000000;
+  margin: 1rem 0.3rem;
+  padding: 0.5rem 2rem;
+  font-weight: bolder;
+  border-radius: 8px;
+  max-width: 600px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.left-img {
+  float: left;
+  margin: 0 2rem 0 0;
+}
+.output-div {
+  margin: 3rem 0rem;
+  float: left;
+  width: 70%;
+}
+.movieoutput {
+  margin: 2rem 0 0 200px;
+  border-radius: 2px;
+  color: #ffffff;
+  width: 70%;
+}
+
+.text-movie {
+  padding: 0.5rem;
+}
+.medium-text {
+  padding: 0.5rem;
+}
+.desc-text {
+  padding: 0.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .movieoutput {
+    margin: 2px 0 2rem 0;
+    width: 100%;
+  }
+}
