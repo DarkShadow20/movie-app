@@ -32,6 +32,10 @@ button {
   cursor: pointer;
   outline: none;
 }
+button:focus {
+  background-color: #ffffff;
+  color: #f5c518;
+}
 .left-img {
   float: left;
   margin: 0 2rem 0 0;

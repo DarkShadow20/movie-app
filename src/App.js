@@ -94,7 +94,7 @@ export default function App() {
       <p>Checkout the movies according to genre.</p>
       <div className="genreButton">
         {Object.keys(movieDictionary).map((genre) => (
-          <button onClick={() => genreClickHandler(genre)}>{genre}</button>
+          <button key={genre} onClick={() => genreClickHandler(genre)}>{genre}</button>
         ))}
       </div>
       <hr />
